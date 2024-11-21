@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-color: bisque;
+}
+
+button#reset {
+  display: block;
+  margin: 8px auto;
+  font-weight: bold;
+  font-size: 32px;
+  padding: 8px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button#reset:hover {
+  background-color: rgb(193, 193, 193);
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  margin: 8px auto;
+  width: 600px;
+  height: 600px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
+
+div.row {
+  display: flex;
+  flex: 1;
+}
+
+div.cell {
+  background-color: black;
+  opacity: 0;
+  flex: 1;
+}
